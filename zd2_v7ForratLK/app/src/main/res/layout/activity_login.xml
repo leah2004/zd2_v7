@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Login"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView    android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/ispsps"
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/odhfgr"
+            android:textColor="@color/yellow"
+            android:textSize="12dp"
+          android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="144dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/blue"
+            android:hint="@string/oifihg"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:text="@string/dkjfhg"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="143dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/blue"
+            android:hint="@string/kjhgfklg"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners"
+        android:onClick="next"
+        android:text="@string/oighig"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
+</LinearLayout>

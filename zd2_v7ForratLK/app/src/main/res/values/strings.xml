@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Forrat_Albums</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="rolls">Роллы</string>
+    <string name="cezar">Салаты</string>
+    <string name="pizza">Пицца</string>
+    <string name="addToSpis">Добавить в список</string>
+    <string name="ispsps">Исполнители и альбомы</string>
+    <string name="kjhgfklg">Введите пароль</string>
+    <string name="dkjfhg">Пароль</string>
+    <string name="oifihg">you@example.com</string>
+    <string name="odhfgr">E-mail</string>
+    <string name="oighig">Войти</string>
+    <string name="ifoigrg">Добавить в избранное</string>
+    <string name="izbrannoe">Избранное</string>
+    <string name="albums">Альбомы</string>
+</resources>
